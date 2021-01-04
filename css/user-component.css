@@ -50,3 +50,6 @@
 .user-component__time {
   margin-bottom: 5px;
 }
+.user-component__coulumn-black i {
+  color: black;
+}
