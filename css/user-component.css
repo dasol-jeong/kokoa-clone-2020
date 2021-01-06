@@ -1,5 +1,6 @@
 .user-component {
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 .user-component,
 .user-component__coulumn:first-child {
@@ -29,16 +30,16 @@
   font-weight: 400;
 }
 .user-component__subtitles {
+  margin-top: 9px;
   display: flex;
+  align-items: center;
 }
 .user-component__subtitle {
-  margin-top: 9px;
   color: rgba(0, 0, 0, 0.5);
   font-size: 15px;
   margin-right: 5px;
 }
 .user-component__subtitles i {
-  margin-top: 8.5px;
   color: tomato;
 }
 .user-component__coulumn:last-child {
@@ -52,4 +53,7 @@
 }
 .user-component__coulumn-black i {
   color: black;
+}
+.user-component__subtitle-margin {
+  margin-top: 9px;
 }
