@@ -3,7 +3,18 @@
 }
 #chat-screen {
   background-color: #abc1d1;
-  height: 11000vh;
+  height: 500vh;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
 }
 @keyframes fadeIn {
   from {
